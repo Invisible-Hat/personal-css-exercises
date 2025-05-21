@@ -1,0 +1,26 @@
+requires
+- edit HTML by probably adding some containers
+- semantically separate left and right items
+
+my guess:
+body
+|-div.header
+ |-div.left-items
+  |-div.logo
+  |-ul
+   |-li*3
+ |-div.right-items
+  |-div.notifications
+  |-div.profile
+
+starting:
+body
+|-div.header
+ |-div.logo
+ |ul
+  |-li*3
+ |-button.notifications
+ |-div.profile-img
+
+
+soluzione uguale
