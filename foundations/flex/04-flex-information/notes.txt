@@ -1,0 +1,38 @@
+requires
+- edit HTML 
+
+
+body
+|-div.information
+ |-img
+ |-p
+ |-img
+ |-p
+ |-img
+ |-p
+ |-img
+ |-p
+
+starting:
+body
+|-div.information
+|-img
+|-div
+|-img
+|-div
+|-img
+|-div
+|-img
+|-div
+
+
+my edit HTML
+- put all body's content into a div.container
+
+solution edit HTML
+- the same as mine
+
+overall I has the same result but with a few more rules
+
+the solution has some different margin and padding 
+and used text-align: center to center the img
