@@ -1,0 +1,9 @@
+requires
+- edit HTML
+
+
+errors
+- added too many divs: I divided the left and right sides which wasn't needed
+
+solution
+- just add a container under modal wrapping everything after the div.icon
