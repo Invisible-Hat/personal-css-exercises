@@ -1,0 +1,22 @@
+struttura
+
+io:
+tag body
+|-nav
+ |-ul
+  |-li*7
+
+index.html:
+body
+|-div
+ |-div
+  |-ul
+   |-li*3
+ |-div
+ |-div
+  |-ul
+   |li*3
+
+
+problems I had
+- couldn't figure out how to avoid collision of the right side of the third right item with the right side of the div.header -> solved by adding a bit of padding to .header
